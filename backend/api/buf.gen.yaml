@@ -14,12 +14,21 @@ managed:
       value: github.com/WindyDante/Atlas/backend/api/gen/atlas/doc/v1;docv1
 
 plugins:
-  - remote: buf.build/protocolbuffers/go
-    out: gen
-    opt:
-      - paths=source_relative
+  # generate go code
+  #- plugin: buf.build/protocolbuffers/go
+  - local: protoc-gen-go
+    out: gen/go
+    opt: paths=source_relative # use relative paths
 
-  - remote: buf.build/grpc/go
-    out: gen
+  # generate grpc service code
+  #- plugin: buf.build/grpc/go
+  - local: protoc-gen-go-grpc
+    out: gen/go
     opt:
-      - paths=source_relative
+      - paths=source_relative # use relative paths
+
+  # generate rest service code
+  - local: protoc-gen-go-http
+    out: gen/go
+    opt:
+      - paths=source_relative # use relative paths

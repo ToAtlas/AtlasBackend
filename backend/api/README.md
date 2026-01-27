@@ -22,3 +22,10 @@ buf lint
 
 ### 生成proto代码
 buf generate
+
+## Make构建
+你需要安装Make的工具
+接着在backend下一键安装后端开发环境
+```
+make init
+```
