@@ -9,8 +9,13 @@ Atlas 是面向中小型团队/社区的一款开源在线文档协作平台，�
 
 秉持高效、稳定、可扩展的技术选型理念，系统核心技术栈如下：
 
-- 后端： [Golang](https://go.dev/) + [go-kratos](https://go-kratos.dev/) + [wire](https://github.com/google/wire) 
-
+- 后端： [Go](https://go.dev/) + [Kratos v2](https://go-kratos.dev/) + [Wire](https://github.com/google/wire)
+- API/代码生成： [Protobuf](https://protobuf.dev/) + [Buf](https://buf.build/)（含 OpenAPI 生成）
+- 数据层： [PostgreSQL](https://www.postgresql.org/) + [GORM](https://gorm.io/) + [GORM Gen](https://gorm.io/gen/)
+- 缓存： [Redis](https://redis.io/)
+- 前端： [Vue 3](https://vuejs.org/) + [Vite](https://vite.dev/) + [TypeScript](https://www.typescriptlang.org/)
+- 前端工具链： [Bun](https://bun.sh/)
+- 工程化： Make（统一构建/生成/运行脚本）
 
 ## 核心功能列表
 
