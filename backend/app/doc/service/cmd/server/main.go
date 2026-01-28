@@ -4,7 +4,7 @@ import (
 	"context"
 	"log"
 
-	docv1 "github.com/WindyDante/Atlas/backend/api/gen/go/atlas/doc/v1"
+	docv1 "github.com/WindyDante/Atlas/backend/api/gen/go/doc/service/v1"
 	"github.com/go-kratos/kratos/v2"
 	kgrpc "github.com/go-kratos/kratos/v2/transport/grpc"
 	khttp "github.com/go-kratos/kratos/v2/transport/http"
@@ -30,7 +30,6 @@ func main() {
 	httpSrv := khttp.NewServer(
 		khttp.Address(":8000"),
 	)
-	// 前提：你已经生成了 go-http 的绑定代码（会有 RegisterXXXHTTPServer）
 	docv1.RegisterDocumentServiceHTTPServer(httpSrv, svc)
 
 	app := kratos.New(
