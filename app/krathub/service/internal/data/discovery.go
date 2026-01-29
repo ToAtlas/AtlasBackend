@@ -31,8 +31,6 @@ func NewDiscovery(cfg *conf.Discovery) kratosRegistry.Discovery {
 		return discovery
 	case *conf.Discovery_Nacos:
 		return registry.NewNacosDiscovery(c.Nacos)
-	case *conf.Discovery_Kubernetes:
-		return registry.NewKubernetesDiscovery(c.Kubernetes)
 	default:
 		return nil
 	}
