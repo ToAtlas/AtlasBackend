@@ -3,11 +3,11 @@ package data
 import (
 	"context"
 
+	sayhellopb "github.com/ToAtlas/AtlasBackend/api/gen/go/sayhello/service/v1"
+	"github.com/ToAtlas/AtlasBackend/app/krathub/service/internal/biz"
+	pkglogger "github.com/ToAtlas/AtlasBackend/pkg/logger"
+	"github.com/ToAtlas/AtlasBackend/pkg/transport/client"
 	"github.com/go-kratos/kratos/v2/log"
-	sayhellopb "github.com/horonlee/krathub/api/gen/go/sayhello/service/v1"
-	"github.com/horonlee/krathub/app/krathub/service/internal/biz"
-	pkglogger "github.com/horonlee/krathub/pkg/logger"
-	"github.com/horonlee/krathub/pkg/transport/client"
 	gogrpc "google.golang.org/grpc"
 )
 

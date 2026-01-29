@@ -3,8 +3,8 @@ package service
 import (
 	"context"
 
-	testpb "github.com/horonlee/krathub/api/gen/go/test/service/v1"
-	"github.com/horonlee/krathub/app/krathub/service/internal/biz"
+	testpb "github.com/ToAtlas/AtlasBackend/api/gen/go/test/service/v1"
+	"github.com/ToAtlas/AtlasBackend/app/krathub/service/internal/biz"
 )
 
 // TestService is a test service.

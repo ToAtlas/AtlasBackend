@@ -8,8 +8,8 @@ import (
 	"sync"
 	"time"
 
+	conf "github.com/ToAtlas/AtlasBackend/api/gen/go/conf/v1"
 	"github.com/go-kratos/kratos/v2/config"
-	conf "github.com/horonlee/krathub/api/gen/go/conf/v1"
 	clientv3 "go.etcd.io/etcd/client/v3"
 )
 

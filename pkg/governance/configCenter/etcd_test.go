@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	conf "github.com/horonlee/krathub/api/gen/go/conf/v1"
+	conf "github.com/ToAtlas/AtlasBackend/api/gen/go/conf/v1"
 	clientv3 "go.etcd.io/etcd/client/v3"
 	"google.golang.org/grpc"
 )

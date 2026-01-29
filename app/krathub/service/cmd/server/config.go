@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/horonlee/krathub/api/gen/go/conf/v1"
-	cC "github.com/horonlee/krathub/pkg/governance/configCenter"
+	"github.com/ToAtlas/AtlasBackend/api/gen/go/conf/v1"
+	cC "github.com/ToAtlas/AtlasBackend/pkg/governance/configCenter"
 
 	"github.com/go-kratos/kratos/v2/config"
 	"github.com/go-kratos/kratos/v2/config/env"

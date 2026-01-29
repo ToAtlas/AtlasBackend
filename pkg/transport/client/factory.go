@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/horonlee/krathub/api/gen/go/conf/v1"
-	pkglogger "github.com/horonlee/krathub/pkg/logger"
+	"github.com/ToAtlas/AtlasBackend/api/gen/go/conf/v1"
+	pkglogger "github.com/ToAtlas/AtlasBackend/pkg/logger"
 
 	"github.com/go-kratos/kratos/v2/log"
 	"github.com/go-kratos/kratos/v2/registry"

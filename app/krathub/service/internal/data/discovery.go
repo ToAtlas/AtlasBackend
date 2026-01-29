@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/horonlee/krathub/api/gen/go/conf/v1"
-	"github.com/horonlee/krathub/pkg/governance/registry"
+	"github.com/ToAtlas/AtlasBackend/api/gen/go/conf/v1"
+	"github.com/ToAtlas/AtlasBackend/pkg/governance/registry"
 
 	kratosRegistry "github.com/go-kratos/kratos/v2/registry"
 )

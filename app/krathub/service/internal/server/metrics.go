@@ -3,10 +3,10 @@ package server
 import (
 	"net/http"
 
+	"github.com/ToAtlas/AtlasBackend/api/gen/go/conf/v1"
+	pkglogger "github.com/ToAtlas/AtlasBackend/pkg/logger"
 	"github.com/go-kratos/kratos/v2/log"
 	"github.com/go-kratos/kratos/v2/middleware/metrics"
-	"github.com/horonlee/krathub/api/gen/go/conf/v1"
-	pkglogger "github.com/horonlee/krathub/pkg/logger"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 	"go.opentelemetry.io/otel/exporters/prometheus"
 	"go.opentelemetry.io/otel/metric"

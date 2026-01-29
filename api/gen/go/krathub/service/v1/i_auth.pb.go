@@ -7,7 +7,7 @@
 package krathubpb
 
 import (
-	v1 "github.com/horonlee/krathub/api/gen/go/auth/service/v1"
+	v1 "github.com/ToAtlas/AtlasBackend/api/gen/go/auth/service/v1"
 	_ "google.golang.org/genproto/googleapis/api/annotations"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
@@ -31,9 +31,9 @@ const file_krathub_service_v1_i_auth_proto_rawDesc = "" +
 	"\rSignupByEmail\x12%.auth.service.v1.SignupByEmailRequest\x1a&.auth.service.v1.SignupByEmailResponse\"&\x82\xd3\xe4\x93\x02 :\x01*\"\x1b/v1/auth/signup/using-email\x12\x9d\x01\n" +
 	"\x14LoginByEmailPassword\x12,.auth.service.v1.LoginByEmailPasswordRequest\x1a-.auth.service.v1.LoginByEmailPasswordResponse\"(\x82\xd3\xe4\x93\x02\":\x01*\"\x1d/v1/auth/login/email-password\x12~\n" +
 	"\fRefreshToken\x12$.auth.service.v1.RefreshTokenRequest\x1a%.auth.service.v1.RefreshTokenResponse\"!\x82\xd3\xe4\x93\x02\x1b:\x01*\"\x16/v1/auth/refresh-token\x12e\n" +
-	"\x06Logout\x12\x1e.auth.service.v1.LogoutRequest\x1a\x1f.auth.service.v1.LogoutResponse\"\x1a\x82\xd3\xe4\x93\x02\x14:\x01*\"\x0f/v1/auth/logoutB\xd3\x01\n" +
+	"\x06Logout\x12\x1e.auth.service.v1.LogoutRequest\x1a\x1f.auth.service.v1.LogoutResponse\"\x1a\x82\xd3\xe4\x93\x02\x14:\x01*\"\x0f/v1/auth/logoutB\xd7\x01\n" +
 	"\x16com.krathub.service.v1B\n" +
-	"IAuthProtoP\x01ZCgithub.com/horonlee/krathub/api/gen/go/krathub/service/v1;krathubpb\xa2\x02\x03KSX\xaa\x02\x12Krathub.Service.V1\xca\x02\x12Krathub\\Service\\V1\xe2\x02\x1eKrathub\\Service\\V1\\GPBMetadata\xea\x02\x14Krathub::Service::V1b\x06proto3"
+	"IAuthProtoP\x01ZGgithub.com/ToAtlas/AtlasBackend/api/gen/go/krathub/service/v1;krathubpb\xa2\x02\x03KSX\xaa\x02\x12Krathub.Service.V1\xca\x02\x12Krathub\\Service\\V1\xe2\x02\x1eKrathub\\Service\\V1\\GPBMetadata\xea\x02\x14Krathub::Service::V1b\x06proto3"
 
 var file_krathub_service_v1_i_auth_proto_goTypes = []any{
 	(*v1.SignupByEmailRequest)(nil),         // 0: auth.service.v1.SignupByEmailRequest

@@ -4,11 +4,11 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/horonlee/krathub/api/gen/go/conf/v1"
-	dao "github.com/horonlee/krathub/app/krathub/service/internal/data/dao"
-	"github.com/horonlee/krathub/pkg/transport/client"
-	pkglogger "github.com/horonlee/krathub/pkg/logger"
-	"github.com/horonlee/krathub/pkg/redis"
+	"github.com/ToAtlas/AtlasBackend/api/gen/go/conf/v1"
+	dao "github.com/ToAtlas/AtlasBackend/app/krathub/service/internal/data/dao"
+	pkglogger "github.com/ToAtlas/AtlasBackend/pkg/logger"
+	"github.com/ToAtlas/AtlasBackend/pkg/redis"
+	"github.com/ToAtlas/AtlasBackend/pkg/transport/client"
 
 	"github.com/glebarez/sqlite"
 	"github.com/go-kratos/kratos/v2/log"

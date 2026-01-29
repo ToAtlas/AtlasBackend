@@ -4,13 +4,13 @@ import (
 	"context"
 	"strings"
 
+	authpb "github.com/ToAtlas/AtlasBackend/api/gen/go/auth/service/v1"
+	"github.com/ToAtlas/AtlasBackend/api/gen/go/conf/v1"
+	"github.com/ToAtlas/AtlasBackend/app/krathub/service/internal/biz"
+	"github.com/ToAtlas/AtlasBackend/app/krathub/service/internal/consts"
+	"github.com/ToAtlas/AtlasBackend/pkg/jwt"
 	"github.com/go-kratos/kratos/v2/middleware"
 	"github.com/go-kratos/kratos/v2/transport"
-	authpb "github.com/horonlee/krathub/api/gen/go/auth/service/v1"
-	"github.com/horonlee/krathub/api/gen/go/conf/v1"
-	"github.com/horonlee/krathub/app/krathub/service/internal/biz"
-	"github.com/horonlee/krathub/app/krathub/service/internal/consts"
-	"github.com/horonlee/krathub/pkg/jwt"
 )
 
 // AuthJWT 定义认证中间件生成器函数类型

@@ -7,8 +7,8 @@
 package krathubpb
 
 import (
+	v1 "github.com/ToAtlas/AtlasBackend/api/gen/go/test/service/v1"
 	_ "github.com/google/gnostic/openapiv3"
-	v1 "github.com/horonlee/krathub/api/gen/go/test/service/v1"
 	_ "google.golang.org/genproto/googleapis/api/annotations"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
@@ -34,9 +34,9 @@ const file_krathub_service_v1_i_test_proto_rawDesc = "" +
 	"\vPrivateTest\x12#.test.service.v1.PrivateTestRequest\x1a$.test.service.v1.PrivateTestResponse\"0\xbaG\x12Z\x10\n" +
 	"\x0e\n" +
 	"\n" +
-	"BearerAuth\x12\x00\x82\xd3\xe4\x93\x02\x15:\x01*\"\x10/v1/test/privateB\xd3\x01\n" +
+	"BearerAuth\x12\x00\x82\xd3\xe4\x93\x02\x15:\x01*\"\x10/v1/test/privateB\xd7\x01\n" +
 	"\x16com.krathub.service.v1B\n" +
-	"ITestProtoP\x01ZCgithub.com/horonlee/krathub/api/gen/go/krathub/service/v1;krathubpb\xa2\x02\x03KSX\xaa\x02\x12Krathub.Service.V1\xca\x02\x12Krathub\\Service\\V1\xe2\x02\x1eKrathub\\Service\\V1\\GPBMetadata\xea\x02\x14Krathub::Service::V1b\x06proto3"
+	"ITestProtoP\x01ZGgithub.com/ToAtlas/AtlasBackend/api/gen/go/krathub/service/v1;krathubpb\xa2\x02\x03KSX\xaa\x02\x12Krathub.Service.V1\xca\x02\x12Krathub\\Service\\V1\xe2\x02\x1eKrathub\\Service\\V1\\GPBMetadata\xea\x02\x14Krathub::Service::V1b\x06proto3"
 
 var file_krathub_service_v1_i_test_proto_goTypes = []any{
 	(*v1.HelloRequest)(nil),        // 0: test.service.v1.HelloRequest

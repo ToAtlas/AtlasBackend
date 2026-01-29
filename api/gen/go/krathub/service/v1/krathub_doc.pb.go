@@ -25,10 +25,10 @@ var File_krathub_service_v1_krathub_doc_proto protoreflect.FileDescriptor
 
 const file_krathub_service_v1_krathub_doc_proto_rawDesc = "" +
 	"\n" +
-	"$krathub/service/v1/krathub_doc.proto\x12\x12krathub.service.v1\x1a$gnostic/openapi/v3/annotations.protoB\x88\x06\xbaG\xac\x04\x12\xab\x01\n" +
-	"\vKrathub API\x12\x1cKrathub 微服务 API 文档\"3\n" +
-	"\fKrathub Team\x12#https://github.com/horonlee/krathub*D\n" +
-	"\vMIT License\x125https://github.com/horonlee/krathub/blob/main/LICENSE2\x031.0*\xfb\x02\n" +
+	"$krathub/service/v1/krathub_doc.proto\x12\x12krathub.service.v1\x1a$gnostic/openapi/v3/annotations.protoB\x94\x06\xbaG\xb4\x04\x12\xb3\x01\n" +
+	"\vKrathub API\x12\x1cKrathub 微服务 API 文档\"7\n" +
+	"\fKrathub Team\x12'https://github.com/ToAtlas/AtlasBackend*H\n" +
+	"\vMIT License\x129https://github.com/ToAtlas/AtlasBackend/blob/main/LICENSE2\x031.0*\xfb\x02\n" +
 	"\xd4\x01\n" +
 	"\xd1\x01\n" +
 	"\vKratosError\x12\xc1\x01\n" +
@@ -58,7 +58,7 @@ const file_krathub_service_v1_krathub_doc_proto_rawDesc = "" +
 	"BearerAuth\x12'\n" +
 	"%\n" +
 	"\x04http\x12\x10JWT 认证令牌*\x06bearer2\x03JWT\n" +
-	"\x16com.krathub.service.v1B\x0fKrathubDocProtoP\x01ZCgithub.com/horonlee/krathub/api/gen/go/krathub/service/v1;krathubpb\xa2\x02\x03KSX\xaa\x02\x12Krathub.Service.V1\xca\x02\x12Krathub\\Service\\V1\xe2\x02\x1eKrathub\\Service\\V1\\GPBMetadata\xea\x02\x14Krathub::Service::V1b\x06proto3"
+	"\x16com.krathub.service.v1B\x0fKrathubDocProtoP\x01ZGgithub.com/ToAtlas/AtlasBackend/api/gen/go/krathub/service/v1;krathubpb\xa2\x02\x03KSX\xaa\x02\x12Krathub.Service.V1\xca\x02\x12Krathub\\Service\\V1\xe2\x02\x1eKrathub\\Service\\V1\\GPBMetadata\xea\x02\x14Krathub::Service::V1b\x06proto3"
 
 var file_krathub_service_v1_krathub_doc_proto_goTypes = []any{}
 var file_krathub_service_v1_krathub_doc_proto_depIdxs = []int32{

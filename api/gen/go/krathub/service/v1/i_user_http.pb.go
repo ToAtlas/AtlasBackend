@@ -8,9 +8,9 @@ package krathubpb
 
 import (
 	context "context"
+	v1 "github.com/ToAtlas/AtlasBackend/api/gen/go/user/service/v1"
 	http "github.com/go-kratos/kratos/v2/transport/http"
 	binding "github.com/go-kratos/kratos/v2/transport/http/binding"
-	v1 "github.com/horonlee/krathub/api/gen/go/user/service/v1"
 )
 
 // This is a compile-time assertion to ensure that this generated file

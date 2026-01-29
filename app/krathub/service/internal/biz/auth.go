@@ -4,14 +4,15 @@ import (
 	"context"
 	"crypto/rand"
 	"encoding/hex"
-	"github.com/horonlee/krathub/pkg/helpers/hash"
 	"time"
 
-	authpb "github.com/horonlee/krathub/api/gen/go/auth/service/v1"
-	"github.com/horonlee/krathub/api/gen/go/conf/v1"
-	po "github.com/horonlee/krathub/app/krathub/service/internal/data/po"
-	jwtpkg "github.com/horonlee/krathub/pkg/jwt"
-	pkglogger "github.com/horonlee/krathub/pkg/logger"
+	"github.com/ToAtlas/AtlasBackend/pkg/helpers/hash"
+
+	authpb "github.com/ToAtlas/AtlasBackend/api/gen/go/auth/service/v1"
+	"github.com/ToAtlas/AtlasBackend/api/gen/go/conf/v1"
+	po "github.com/ToAtlas/AtlasBackend/app/krathub/service/internal/data/po"
+	jwtpkg "github.com/ToAtlas/AtlasBackend/pkg/jwt"
+	pkglogger "github.com/ToAtlas/AtlasBackend/pkg/logger"
 
 	"github.com/go-kratos/kratos/v2/log"
 	"github.com/golang-jwt/jwt/v5"

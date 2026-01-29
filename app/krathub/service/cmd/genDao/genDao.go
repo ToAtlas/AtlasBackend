@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/horonlee/krathub/api/gen/go/conf/v1"
+	"github.com/ToAtlas/AtlasBackend/api/gen/go/conf/v1"
 
 	"github.com/glebarez/sqlite"
 	"github.com/go-kratos/kratos/v2/config"

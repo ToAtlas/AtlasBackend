@@ -7,15 +7,15 @@
 package main
 
 import (
+	"github.com/ToAtlas/AtlasBackend/api/gen/go/conf/v1"
+	"github.com/ToAtlas/AtlasBackend/app/krathub/service/internal/biz"
+	"github.com/ToAtlas/AtlasBackend/app/krathub/service/internal/data"
+	"github.com/ToAtlas/AtlasBackend/app/krathub/service/internal/server"
+	"github.com/ToAtlas/AtlasBackend/app/krathub/service/internal/server/middleware"
+	"github.com/ToAtlas/AtlasBackend/app/krathub/service/internal/service"
+	"github.com/ToAtlas/AtlasBackend/pkg/transport/client"
 	"github.com/go-kratos/kratos/v2"
 	"github.com/go-kratos/kratos/v2/log"
-	"github.com/horonlee/krathub/api/gen/go/conf/v1"
-	"github.com/horonlee/krathub/app/krathub/service/internal/biz"
-	"github.com/horonlee/krathub/app/krathub/service/internal/data"
-	"github.com/horonlee/krathub/app/krathub/service/internal/server"
-	"github.com/horonlee/krathub/app/krathub/service/internal/server/middleware"
-	"github.com/horonlee/krathub/app/krathub/service/internal/service"
-	"github.com/horonlee/krathub/pkg/transport/client"
 )
 
 import (

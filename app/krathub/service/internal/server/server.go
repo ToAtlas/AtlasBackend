@@ -1,7 +1,7 @@
 package server
 
 import (
-	"github.com/horonlee/krathub/app/krathub/service/internal/server/middleware"
+	"github.com/ToAtlas/AtlasBackend/app/krathub/service/internal/server/middleware"
 
 	"github.com/google/wire"
 )

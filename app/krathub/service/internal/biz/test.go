@@ -3,8 +3,8 @@ package biz
 import (
 	"context"
 
+	pkglogger "github.com/ToAtlas/AtlasBackend/pkg/logger"
 	"github.com/go-kratos/kratos/v2/log"
-	pkglogger "github.com/horonlee/krathub/pkg/logger"
 )
 
 type TestRepo interface {

@@ -12,11 +12,11 @@ option (gnostic.openapi.v3.document) = {
     description: "Krathub 微服务 API 文档"
     contact: {
       name: "Krathub Team"
-      url: "https://github.com/horonlee/krathub"
+      url: "https://github.com/ToAtlas/AtlasBackend"
     }
     license: {
       name: "MIT License"
-      url: "https://github.com/horonlee/krathub/blob/main/LICENSE"
+      url: "https://github.com/ToAtlas/AtlasBackend/blob/main/LICENSE"
     }
   }
 

@@ -8,7 +8,7 @@ package krathubpb
 
 import (
 	context "context"
-	v1 "github.com/horonlee/krathub/api/gen/go/user/service/v1"
+	v1 "github.com/ToAtlas/AtlasBackend/api/gen/go/user/service/v1"
 	grpc "google.golang.org/grpc"
 	codes "google.golang.org/grpc/codes"
 	status "google.golang.org/grpc/status"

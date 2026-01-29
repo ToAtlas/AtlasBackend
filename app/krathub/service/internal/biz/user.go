@@ -3,12 +3,12 @@ package biz
 import (
 	"context"
 
-	authpb "github.com/horonlee/krathub/api/gen/go/auth/service/v1"
-	"github.com/horonlee/krathub/api/gen/go/conf/v1"
-	userpb "github.com/horonlee/krathub/api/gen/go/user/service/v1"
-	po "github.com/horonlee/krathub/app/krathub/service/internal/data/po"
-	"github.com/horonlee/krathub/pkg/jwt"
-	pkglogger "github.com/horonlee/krathub/pkg/logger"
+	authpb "github.com/ToAtlas/AtlasBackend/api/gen/go/auth/service/v1"
+	"github.com/ToAtlas/AtlasBackend/api/gen/go/conf/v1"
+	userpb "github.com/ToAtlas/AtlasBackend/api/gen/go/user/service/v1"
+	po "github.com/ToAtlas/AtlasBackend/app/krathub/service/internal/data/po"
+	"github.com/ToAtlas/AtlasBackend/pkg/jwt"
+	pkglogger "github.com/ToAtlas/AtlasBackend/pkg/logger"
 
 	"github.com/go-kratos/kratos/v2/log"
 )

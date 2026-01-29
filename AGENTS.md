@@ -84,7 +84,7 @@ import (
 
     "github.com/go-kratos/kratos/v2/log"                   // 2. third-party
 
-    authv1 "github.com/horonlee/krathub/api/gen/go/auth/service/v1"  // 3. project
+    authv1 "github.com/ToAtlas/AtlasBackend/api/gen/go/auth/service/v1"  // 3. project
 )
 ```
 

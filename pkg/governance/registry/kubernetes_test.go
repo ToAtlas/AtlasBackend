@@ -3,7 +3,7 @@ package registry
 import (
 	"testing"
 
-	conf "github.com/horonlee/krathub/api/gen/go/conf/v1"
+	conf "github.com/ToAtlas/AtlasBackend/api/gen/go/conf/v1"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -7,8 +7,8 @@
 package krathubpb
 
 import (
+	v1 "github.com/ToAtlas/AtlasBackend/api/gen/go/user/service/v1"
 	_ "github.com/google/gnostic/openapiv3"
-	v1 "github.com/horonlee/krathub/api/gen/go/user/service/v1"
 	_ "google.golang.org/genproto/googleapis/api/annotations"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
@@ -46,9 +46,9 @@ const file_krathub_service_v1_i_user_proto_rawDesc = "" +
 	"DeleteUser\x12\".user.service.v1.DeleteUserRequest\x1a#.user.service.v1.DeleteUserResponse\"1\xbaG\x12Z\x10\n" +
 	"\x0e\n" +
 	"\n" +
-	"BearerAuth\x12\x00\x82\xd3\xe4\x93\x02\x16*\x14/v1/user/delete/{id}B\xd3\x01\n" +
+	"BearerAuth\x12\x00\x82\xd3\xe4\x93\x02\x16*\x14/v1/user/delete/{id}B\xd7\x01\n" +
 	"\x16com.krathub.service.v1B\n" +
-	"IUserProtoP\x01ZCgithub.com/horonlee/krathub/api/gen/go/krathub/service/v1;krathubpb\xa2\x02\x03KSX\xaa\x02\x12Krathub.Service.V1\xca\x02\x12Krathub\\Service\\V1\xe2\x02\x1eKrathub\\Service\\V1\\GPBMetadata\xea\x02\x14Krathub::Service::V1b\x06proto3"
+	"IUserProtoP\x01ZGgithub.com/ToAtlas/AtlasBackend/api/gen/go/krathub/service/v1;krathubpb\xa2\x02\x03KSX\xaa\x02\x12Krathub.Service.V1\xca\x02\x12Krathub\\Service\\V1\xe2\x02\x1eKrathub\\Service\\V1\\GPBMetadata\xea\x02\x14Krathub::Service::V1b\x06proto3"
 
 var file_krathub_service_v1_i_user_proto_goTypes = []any{
 	(*v1.CurrentUserInfoRequest)(nil),  // 0: user.service.v1.CurrentUserInfoRequest

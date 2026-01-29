@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"time"
 
+	conf "github.com/ToAtlas/AtlasBackend/api/gen/go/conf/v1"
 	"github.com/go-kratos/kratos/contrib/registry/consul/v2"
 	"github.com/go-kratos/kratos/v2/registry"
 	"github.com/hashicorp/consul/api"
-	conf "github.com/horonlee/krathub/api/gen/go/conf/v1"
 )
 
 // NewConsulRegistry 创建 Consul 统一注册中心客户端（支持注册和发现）

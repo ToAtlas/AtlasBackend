@@ -4,12 +4,12 @@ import (
 	"context"
 	"fmt"
 
-	authpb "github.com/horonlee/krathub/api/gen/go/auth/service/v1"
-	userpb "github.com/horonlee/krathub/api/gen/go/user/service/v1"
+	authpb "github.com/ToAtlas/AtlasBackend/api/gen/go/auth/service/v1"
+	userpb "github.com/ToAtlas/AtlasBackend/api/gen/go/user/service/v1"
 
-	"github.com/horonlee/krathub/app/krathub/service/internal/biz"
-	"github.com/horonlee/krathub/app/krathub/service/internal/consts"
-	po "github.com/horonlee/krathub/app/krathub/service/internal/data/po"
+	"github.com/ToAtlas/AtlasBackend/app/krathub/service/internal/biz"
+	"github.com/ToAtlas/AtlasBackend/app/krathub/service/internal/consts"
+	po "github.com/ToAtlas/AtlasBackend/app/krathub/service/internal/data/po"
 )
 
 type UserService struct {

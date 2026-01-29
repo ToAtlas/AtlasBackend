@@ -1,8 +1,8 @@
 package middleware
 
 import (
-	"github.com/horonlee/krathub/api/gen/go/conf/v1"
-	"github.com/horonlee/krathub/pkg/middleware/cors"
+	"github.com/ToAtlas/AtlasBackend/api/gen/go/conf/v1"
+	"github.com/ToAtlas/AtlasBackend/pkg/middleware/cors"
 )
 
 // CORS 从配置文件创建 CORS 选项

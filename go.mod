@@ -1,4 +1,4 @@
-module github.com/horonlee/krathub
+module github.com/ToAtlas/AtlasBackend
 
 go 1.25.3
 

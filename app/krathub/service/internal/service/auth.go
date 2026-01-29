@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	authpb "github.com/horonlee/krathub/api/gen/go/auth/service/v1"
-	"github.com/horonlee/krathub/app/krathub/service/internal/biz"
-	po "github.com/horonlee/krathub/app/krathub/service/internal/data/po"
+	authpb "github.com/ToAtlas/AtlasBackend/api/gen/go/auth/service/v1"
+	"github.com/ToAtlas/AtlasBackend/app/krathub/service/internal/biz"
+	po "github.com/ToAtlas/AtlasBackend/app/krathub/service/internal/data/po"
 )
 
 // AuthService is a auth service.

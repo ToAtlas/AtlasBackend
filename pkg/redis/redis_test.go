@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/horonlee/krathub/pkg/logger"
+	"github.com/ToAtlas/AtlasBackend/pkg/logger"
 	"github.com/redis/go-redis/v9"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

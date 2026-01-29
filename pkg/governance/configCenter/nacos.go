@@ -3,9 +3,9 @@ package configCenter
 import (
 	"fmt"
 
+	conf "github.com/ToAtlas/AtlasBackend/api/gen/go/conf/v1"
 	nacosCfg "github.com/go-kratos/kratos/contrib/config/nacos/v2"
 	"github.com/go-kratos/kratos/v2/config"
-	conf "github.com/horonlee/krathub/api/gen/go/conf/v1"
 
 	"github.com/nacos-group/nacos-sdk-go/clients"
 	"github.com/nacos-group/nacos-sdk-go/common/constant"

@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/ToAtlas/AtlasBackend/pkg/logger"
+	"github.com/ToAtlas/AtlasBackend/pkg/redis"
 	"github.com/go-kratos/kratos/v2/log"
-	"github.com/horonlee/krathub/pkg/logger"
-	"github.com/horonlee/krathub/pkg/redis"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )
